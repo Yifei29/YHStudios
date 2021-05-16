@@ -1,15 +1,15 @@
-## Welcome to GitHub Pages
+# YOS Alpha
 
-You can use the [editor on GitHub](https://github.com/Yifei29/YHStudios/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+### About YHStudios
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+YHStudios is a Kid-Owned, trusted company that is always bringing the ruture closer. Our next step, is to work on a functional operating system for testing purposes, and to use this to help others learn.
 
-### Markdown
+### About YOS
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+YOS is a lightweight, output-based OS, kind of like the olden days, but brought to the future, and fixed.
 
 ```markdown
-Syntax highlighted code block
+
 
 # Header 1
 ## Header 2
@@ -25,8 +25,7 @@ Syntax highlighted code block
 
 [Link](url) and ![Image](src)
 ```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+## How to Use
 
 ### Jekyll Themes
 
