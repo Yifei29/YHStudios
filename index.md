@@ -14,6 +14,9 @@ YOS is a lightweight, output-based OS, kind of like the olden days, but brought 
  2. Run the Replit
  3. Have Fun!
 
+### Versions
+#### 0.3.1.0 Alpha
+
 ### License
 All use/users of our products must comply with our guidelines. Thank You.
 
