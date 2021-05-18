@@ -1,7 +1,9 @@
 #INFO
-version = "0.2.0.0 Alpha"
-biosversion = "N/A"
-latestAvailableVersion = "0.2.1.1 Alpha"
+version = "0.3.1.0 Alpha"
+biosversion = "3.2 Python Loader"
+latestAvailableVersion = "0.3.1.0"
+#ProcessManager
+                                                   
 
 
 #APPS
@@ -10,13 +12,10 @@ from cs50 import get_string
 from replit import db
 import psutil
 import os
-
-
-save = "/save"
-
-
-
+from datetime import date
+from datetime import datetime
 import time
+save = "/save"
 
 NewDocument = "This is a new Document, start typing and hit enter to make you document."
 print("YOS Version: ", version)
@@ -36,16 +35,79 @@ time.sleep(1)
 name = get_string("")
 
 if name == "/start":
-    password = get_string("What is your password? Hint: password      ")
-    if password == "password":
+    
 
         def apps():
 
             Apps = get_string(
-                "Welcome to YOS. Current apps installed: YDocs and Diagnostics. Do /{app name} to launch the app      "
+
+                "Welcome to YOS." 
+                "                                                  "
+                "Current apps installed: Calculator, Clock,  Diagnostics, and YDocs. Do /{AppName} to launch the app      "
             )
-            
+            if Apps == "/Clock":
               
+
+              today = date.today()
+              
+              
+              # dd/mm/YY
+              d1 = today.strftime("%m/%d%Y")
+              print("Date: ", d1)
+
+              now = datetime.now()
+
+              current_time = now.strftime("%H:%M:%S")
+              print("Current Time =", current_time)
+             
+
+            if Apps == "/Calculator":
+              def add(x, y):
+                return x + y
+
+# This function subtracts two numbers
+              def subtract(x, y):
+                return x - y
+
+# This function multiplies two numbers
+              def multiply(x, y):
+                return x * y
+
+# This function divides two numbers
+              def divide(x, y):
+                  return x / y
+
+
+              print("Select operation.")
+              print("1.Add")
+              print("2.Subtract")
+              print("3.Multiply")
+              print("4.Divide")
+
+              while True:
+    # Take input from the user
+                choice = input("Enter choice(1/2/3/4): ")
+
+    # Check if choice is one of the four options
+              if choice in ('1', '2', '3', '4'):
+                  num1 = float(input("Enter first number: "))
+                  num2 = float(input("Enter second number: "))
+
+                  if choice == '1':
+                    print(num1, "+", num2, "=", add(num1, num2))
+
+                  elif choice == '2':
+                    print(num1, "-", num2, "=", subtract(num1, num2))
+
+                  elif choice == '3':
+                    print(num1, "*", num2, "=", multiply(num1, num2))
+
+                  elif choice == '4':
+                    print(num1, "/", num2, "=", divide(num1, num2))
+              
+              else:
+                  print("Invalid Input")
+  
             if Apps == "/Diagnostics":
               #!/usr/bin/env python
 
