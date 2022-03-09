@@ -1,10 +1,13 @@
-# YOS Alpha
+# YOS Alander
 
 ### About YHStudios
 
 YHStudios is a Kid-Owned, trusted company that is always bringing the ruture closer. Our next step, is to work on a functional operating system for testing purposes, and to use this to help others learn.
 
-### About YOS
+### About YOS Alander
+
+YOS is an OS made in Roblox. Some of YOS Alander is founded on YOS 1.0. Check it out at: bit.ly/yosalander
+### About YOS 1.0
 
 YOS is a lightweight, output-based OS, kind of like the olden days, but brought to the future, and fixed.
 
